@@ -1,0 +1,28 @@
+{
+  "name": "no1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "1.2.9",
+    "@tensorflow/tfjs-converter": "1.2.9",
+    "@tensorflow/tfjs-node": "1.2.9",
+    "bootstrap": "4.3.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jquery": "3.4.1"
+  },
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
+    "build": "cross-env NODE_ENV=production parcel build index.html  --no-minify --public-url ./",
+    "link-local": "yalc link"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "babel-preset-env": "~1.6.1",
+    "parcel-bundler": "^1.6.1",
+    "yalc": "~1.0.0-pre.22"
+  },
+  "keywords": []
+}
